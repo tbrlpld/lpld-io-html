@@ -1,16 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="utf-8"/>
 	<title>lpld.io</title>
+	<style>
+	.flex-container {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		display: flex; 
+		justify-content: center; 
+		align-items: center;
+	}
+	</style>
 </head>
 <body>
-<svg>
-  <line x1="25" y1="25" x2="225" y2="225" style="stroke:rgb(0,0,0);stroke-width:1"></line>
-  <line x1="25" y1="225" x2="225" y2="25" style="stroke:rgb(0,0,0);stroke-width:1"></line>
-  <text x="125" y="75" style="font-size:40pt;text-anchor:middle">L</text>
-  <text x="200" y="140" style="font-size:40pt;text-anchor:middle">P</text>  
-  <text x="50" y="140" style="font-size:40pt;text-anchor:middle">D</text>
-  <text x="125" y="200" style="font-size:40pt;text-anchor:middle">L</text>
-</svg>
+	<div class="flex-container">
+		<div>
+			<svg width="250" height="250">
+				<line x1="25" y1="25" x2="225" y2="225" style="stroke:rgb(0,0,0);stroke-width:1"></line>
+				<line x1="25" y1="225" x2="225" y2="25" style="stroke:rgb(0,0,0);stroke-width:1"></line>
+				<text x="125" y="75" style="font-size:40pt;text-anchor:middle">L</text>
+				<text x="200" y="140" style="font-size:40pt;text-anchor:middle">P</text>  
+				<text x="50" y="140" style="font-size:40pt;text-anchor:middle">D</text>
+				<text x="125" y="200" style="font-size:40pt;text-anchor:middle">L</text>
+			</svg>
+		</div>
+	</div>
 </body>
 </html>
