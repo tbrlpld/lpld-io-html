@@ -10,15 +10,21 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
+		overflow: hidden;
 		display: flex; 
 		justify-content: center; 
 		align-items: center;
+	}
+
+	.logo-container {
+		position: sticky;
+		top: 0;
 	}
 	</style>
 </head>
 <body>
 	<div class="flex-container">
-		<div>
+		<div class="logo-container">
 			<svg width="250" height="250">
 				<line x1="25" y1="25" x2="225" y2="225" style="stroke:rgb(0,0,0);stroke-width:1"></line>
 				<line x1="25" y1="225" x2="225" y2="25" style="stroke:rgb(0,0,0);stroke-width:1"></line>
