@@ -1,0 +1,13 @@
+env*
+*.pyc
+*.pyo
+__pycache__
+*.sqlite3
+config/
+secrets.json
+MANIFEST
+dist
+*.DS_Store
+logs
+.vagrant
+*.pem
