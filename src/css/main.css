@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('LibreBaskerville/LibreBaskerville-Regular') format('truetype');
+  src: url('LibreBaskerville/LibreBaskerville-Regular.ttf');
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: local('LibreBaskerville/LibreBaskerville-RegularItalic') format('truetype');
+  src: url('LibreBaskerville/LibreBaskerville-RegularItalic.ttf');
 }
 
 @font-face {
@@ -19,7 +19,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('LibreBaskerville/LibreBaskerville-Bold') format('truetype');
+  src: url('LibreBaskerville/LibreBaskerville-Bold.ttf');
 }
 
 
