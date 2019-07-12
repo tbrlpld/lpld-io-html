@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
-	<script src="js/main.js" type="text/javascript"></script>
+	<script src="js/main.js"></script>
 	<title>lpld.io</title>
 </head>
 <body class="text-center">
@@ -19,7 +19,7 @@
 						<img src="image/logo.svg" class="logo m-5" alt="lpld.io logo">
 					</header>
 				</div>
-				<div class="row mb-4">
+				<div id="row-projects" class="row mb-4">
 					<div class="col">
 						<div class="row">
 							<div class="col">
@@ -29,10 +29,10 @@
 						<div class="row">
 							<div class="col">
 								<div class="card-deck">
-									<div class="card">
+									<div id="project-card-caejd" class="card">
 										<img src="image/projects/caejd_screenshot_joblist_800x800.png" class="card-img-top" alt="Screenshot of CAE Job Diary web application">
 										<div class="card-body">
-											<h5 class="card-title"><a href="#" class="stretched-link">CAE Job Diary</a></h5>
+											<h5 class="card-title">CAE Job Diary</h5>
 											<p class="card-text">A web application to search, track and summarize simulation jobs.</p>
 										</div>
 									</div>
@@ -48,11 +48,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="row mb-4">
+				<div id="row-project-detail-caejd" class="row mb-4" style="display: none;">
 					<div class="col">
 						<div class="row">
 							<div class="col">
-								<h2 class="mb-3">CAE Job Diary</h2>
+								<h2 class="mb-3">CAE Job Diary<button type="button" class="close close-vertically-centered"><span>&times;</span></button></h2>
 							</div>
 						</div>
 						<div class="row">

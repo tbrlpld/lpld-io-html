@@ -32,3 +32,8 @@ body {
 	max-width: 250px;
 	min-width: 96px;
 }
+
+.close-vertically-centered {
+  font-size: inherit;
+  line-height: inherit;
+}
