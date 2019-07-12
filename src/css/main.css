@@ -22,7 +22,6 @@
   src: url('LibreBaskerville/LibreBaskerville-Bold.ttf');
 }
 
-
 body {
 	font-family: "Libre Baskerville", "Times New Roman", serif;
 }
@@ -39,9 +38,4 @@ body {
 
 .project-detail-row {
   display: none;
-}
-
-.close-vertically-centered {
-  font-size: inherit;
-  line-height: inherit;
 }
