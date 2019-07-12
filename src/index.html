@@ -6,19 +6,21 @@
 	<link rel="shortcut icon" type="image/png" href="image/favicon.ico">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+	<script src="js/main.js" type="text/javascript"></script>
 	<title>lpld.io</title>
 </head>
-<body>
+<body class="text-center">
 	<div class="container">
 		<div class="row">
 			<div class="col">
 				<div class="row">
-					<header class="col text-center">
+					<header class="col">
 						<img src="image/logo.svg" class="logo m-5" alt="lpld.io logo">
 					</header>
 				</div>
 				<div class="row mb-4">
-					<div class="col text-center">
+					<div class="col">
 						<div class="row">
 							<div class="col">
 								<h2 class="mb-3">Projects</h2>
@@ -28,14 +30,14 @@
 							<div class="col">
 								<div class="card-deck">
 									<div class="card">
-										<img src="image/projects/caejd_screenshot_joblist_800x800.png" class="card-img-top" alt="...">
+										<img src="image/projects/caejd_screenshot_joblist_800x800.png" class="card-img-top" alt="Screenshot of CAE Job Diary web application">
 										<div class="card-body">
 											<h5 class="card-title"><a href="#" class="stretched-link">CAE Job Diary</a></h5>
 											<p class="card-text">A web application to search, track and summarize simulation jobs.</p>
 										</div>
 									</div>
 									<div class="card">
-										<img src="image/projects/rememberme_screenshot_800x800.png" class="card-img-top" alt="...">
+										<img src="image/projects/rememberme_screenshot_800x800.png" class="card-img-top" alt="Screenshot of RememberMe memory game">
 										<div class="card-body">
 											<h5 class="card-title"><a href="https://rememberme.lpld.io" target="_blank" class="stretched-link">RememberMe</a></h5>
 											<p class="card-text">A JavaScript memory game developed as the final project for the Udacity Nanodegree "Intro to Programming".</p>
@@ -47,7 +49,78 @@
 					</div>
 				</div>
 				<div class="row mb-4">
-					<div class="col text-center">
+					<div class="col">
+						<div class="row">
+							<div class="col">
+								<h2 class="mb-3">CAE Job Diary</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="card">
+									<div class="card-body">
+										<div class="row mb-3">
+											<div class="col-12 col-md-6 mb-3 mb-md-0">
+												<a href="image/projects/caejd_screenshot_joblist_1440x900.png" target="_blank"><img src="image/projects/caejd_screenshot_joblist_1440x900.png" alt="Screenshot of job list page of CAE Job Diary" class="w-100"></a>
+											</div>
+											<div class="col-12 col-md-6">
+												<a href="image/projects/caejd_screenshot_detail_1440x900.png" target="_blank"><img src="image/projects/caejd_screenshot_detail_1440x900.png" alt="Screenshot of job detail page of CAE Job Diary" class="w-100"></a>
+											</div>
+										</div>
+										<div class="row mb-3">
+											<div class="col-12 text-justify">
+												<h5 class="card-title text-center">Description</h5>
+												<p class="card-text">CAE Job Dairy is a web application to search, track and summarize simulation jobs.</p>
+												<p class="card-text">
+													I developed CAE Job Dairy as a side project to help me stay organized in my day job as a CAE simulation engineer at Joyson Safety System's advance development department for occupant restraint systems.
+													Especially, when many simulation jobs had to be handled it helped me to see which jobs are running, pending or finished.
+													Which jobs still require an analysis?
+													And what was the outcome of that job again?
+												</p>
+												<p class="card-text">
+													CAE Job Diary is developed as a Django web application.
+													The web application allows the user to search, view and edit the jobs.
+													The creation of jobs is handled by a back end process that polls log files of the queueing system.
+													A second back end process checks the status of the jobs by parsing the file structure in the corresponding directories.
+												</p>
+												<p class="card-text">
+													The source code hosted on Gitlab as a private repository.
+													The repository is still private because some example files and installation/deployment instructions still contain sensitive information.
+													I am currently working on removing the sensitive information and will make the repository publicly viewable once that is done.
+												</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-6">
+												<h5 class="card-title">Responsibilities</h5>
+												<ul class="list-unstyled card-text">
+													<li>Concept</li>
+													<li>Architecture</li>
+													<li>Layout</li>
+													<li>Front End</li>
+													<li>Back End</li>
+												</ul>
+											</div>
+											<div class="col-6">
+												<h5 class="card-title">Technologies</h5>
+												<ul class="list-unstyled card-text">
+													<li>Python</li>
+													<li>Django</li>
+													<li>MySQL</li>
+													<li>Bootstrap</li>
+													<li>Test Driven Development</li>
+													<li>Gitlab CI and Docker for Automated Testing</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mb-4">
+					<div class="col">
 						<div class="row">
 							<div class="col">
 								<h2 class="mb-3">Contact</h2>
@@ -55,7 +128,7 @@
  						</div>
  						<div class="row">
  							<div class="col">
-								<ul class="list-style-type-none px-0">
+								<ul class="list-unstyled">
 									<li><a href="mailto:tibor@lpld.io">Email</a></li>
 									<li><a href="https://github.com/tbrlpld" target="_blank">Github</a></li>
 									<li><a href="https://gitlab.com/tbrlpld" target="_blank">Gitlab</a></li>
