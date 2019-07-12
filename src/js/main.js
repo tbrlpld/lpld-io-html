@@ -15,7 +15,7 @@ function getLastWord(dashedString) {
  */
 function toggleProjectOverviewAndDetail(projIdent) {
   const projDetailId = `#project-detail-row-${projIdent}`;
-  console.log(projDetailId);
+  // console.log(projDetailId);
   $('#row-projects').toggle();
   $(projDetailId).toggle();
 }
@@ -26,12 +26,12 @@ function toggleProjectOverviewAndDetail(projIdent) {
  *               overview.
  */
 function projectDetailRowCloseButtonClicked() {
-  console.log('Close button clicked');
+  // console.log('Close button clicked');
   const closeButtonsDetailRow = $(this).parents('[id^=project-detail-row-]');
-  console.log(closeButtonsDetailRow);
-  console.log(closeButtonsDetailRow.attr('id'));
+  // console.log(closeButtonsDetailRow);
+  // console.log(closeButtonsDetailRow.attr('id'));
   const projIdent = getLastWord(closeButtonsDetailRow.attr('id'));
-  console.log(projIdent);
+  // console.log(projIdent);
   // Toggle the project overview and the detail (according to the click)
   toggleProjectOverviewAndDetail(projIdent);
 }
@@ -41,10 +41,10 @@ function projectDetailRowCloseButtonClicked() {
  *               id and toggle visibility of project overview and detail
  */
 function projectOverviewCardClicked() {
-  console.log('Clicked of project overview card');
+  // console.log('Clicked of project overview card');
   // Extracting project identifier from clicked object
   const projIdent = getLastWord($(this).attr('id'));
-  console.log(projIdent);
+  // console.log(projIdent);
   // Toggle the project overview and the detail (according to the click)
   toggleProjectOverviewAndDetail(projIdent);
 }
