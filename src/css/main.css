@@ -33,6 +33,14 @@ body {
 	min-width: 96px;
 }
 
+.project-overview-card {
+  cursor: pointer;
+}
+
+.project-detail-row {
+  display: none;
+}
+
 .close-vertically-centered {
   font-size: inherit;
   line-height: inherit;

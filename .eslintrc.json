@@ -5,5 +5,5 @@
         // "semi": ["error", "always"],
         // "quotes": ["error", "double"]
         "no-console": ["off"]
-    }
+   }
 }
