@@ -18,6 +18,9 @@ function toggleProjectOverviewAndDetail(projIdent) {
   // console.log(projDetailId);
   $('#row-projects').toggle();
   $(projDetailId).toggle();
+  // `get(0)` retrieves the DOM object (instead of the jQuery one) and scrollIntoView is a standard
+  // JS function.
+  $(projDetailId).get(0).scrollIntoView();
 }
 
 /**
