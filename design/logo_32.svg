@@ -75,7 +75,7 @@
      id="layer1"
      transform="translate(1.1377841e-7,-288.53341)">
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458335;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:none;stroke:#333333;stroke-width:0.26458335;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 0.09354418,288.62695 8.27957822,8.27957 v 0"
        id="path815"
        inkscape:connector-curvature="0"
@@ -87,10 +87,10 @@
        inkscape:connector-curvature="0"
        id="path819"
        d="m 0.09354418,296.90652 8.27957822,-8.27957 v 0"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.26458335;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="display:inline;fill:none;stroke:#333333;stroke-width:0.26458335;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.82942367px;line-height:1.25;font-family:Baskerville;-inkscape-font-specification:Baskerville;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.82942367px;line-height:1.25;font-family:Baskerville;-inkscape-font-specification:Baskerville;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458335"
        x="3.2438328"
        y="290.88818"
        id="text831"
@@ -104,7 +104,7 @@
        id="text835"
        y="296.74432"
        x="3.243731"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.8294484px;line-height:1.25;font-family:Baskerville;-inkscape-font-specification:Baskerville;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.8294484px;line-height:1.25;font-family:Baskerville;-inkscape-font-specification:Baskerville;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458335"
        xml:space="preserve"
        inkscape:label="text_L_bot"
        transform="scale(1.0000298,0.9999702)"><tspan
@@ -115,7 +115,7 @@
          sodipodi:role="line">L</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.82945472px;line-height:1.25;font-family:Baskerville;-inkscape-font-specification:Baskerville;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.82945472px;line-height:1.25;font-family:Baskerville;-inkscape-font-specification:Baskerville;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458335"
        x="6.4310904"
        y="293.83606"
        id="text897"
@@ -131,7 +131,7 @@
        id="text901"
        y="293.82507"
        x="0.19947092"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.82942367px;line-height:1.25;font-family:Baskerville;-inkscape-font-specification:Baskerville;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458335"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.82942367px;line-height:1.25;font-family:Baskerville;-inkscape-font-specification:Baskerville;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458335"
        xml:space="preserve"><tspan
          style="font-size:3.17499995px;stroke-width:0.26458335"
          y="293.82507"
